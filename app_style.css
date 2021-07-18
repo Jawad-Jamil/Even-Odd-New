@@ -44,13 +44,15 @@ button{
     padding-bottom: 25px;
 }
 
-.result ul{
+.result ul {
     width: 48%;
     height: auto;
     border-radius: 5px;
     padding: 10px;
     background-color: var(--white);
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .result ul h3{
@@ -64,10 +66,16 @@ button{
 }
 
 
-.result ul li{
+.result ul li {
     display: inline-block;
     border: 2px solid var(--mcolor);
     margin: 3px;
-    padding: 5px;
     border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
