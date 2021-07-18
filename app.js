@@ -1,5 +1,5 @@
 function even(num1,num2) {
-    // document.getElementById("ev_odd_h3").style.display = "block";
+    document.getElementById("ev_odd_h3").style.display = "block";
     for (; num1%2==0; num1+=2) {
         var node = document.createElement("LI");                 // Create a <li> node
         var textnode = document.createTextNode(num1);         // Create a text node
@@ -18,7 +18,7 @@ function even(num1,num2) {
 
 
 function odd(num1,num2) {
-    // document.getElementById("ev_odd_h3").style.display = "block";
+    document.getElementById("ev_odd_h3").style.display = "block";
     for (; num1%2!==0; num1+=2) {
         var node = document.createElement("LI");                 // Create a <li> node
         var textnode = document.createTextNode(num1);         // Create a text node
