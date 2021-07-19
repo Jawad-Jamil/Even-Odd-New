@@ -173,6 +173,7 @@ footer{
     align-items: center;
     font-size: 15px;
     text-transform: capitalize;
+    transition: 0.2s;
 }
 
 .option a:hover{
