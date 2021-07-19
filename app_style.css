@@ -46,7 +46,6 @@ button{
 
 .result ul {
     width: 48%;
-    height: auto;
     border-radius: 5px;
     padding: 10px;
     background-color: var(--white);
